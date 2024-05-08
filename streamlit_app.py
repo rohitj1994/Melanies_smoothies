@@ -6,11 +6,10 @@ from snowflake.snowpark.functions import col
 import requests
 
 # Write directly to the app
-st.title(":cup_with_straw:customize your smoothue! : cup_with_straw:")
+st.title(":cup_with_straw: Customize your smoothie! :cup_with_straw:")
 st.write(
-    """Choose the fruit you want in your custom smoothie!
-    """
-)
+    """Choose the fruits you want in your custom Smoothies
+    """)
 
 name_on_order=st.text_input('Name on smoothie :')
 st.write('Name on smmothie will be :',name_on_order)
