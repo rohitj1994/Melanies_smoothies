@@ -11,8 +11,8 @@ st.write(
     """Choose the fruits you want in your custom Smoothies
     """)
 
-name_on_order=st.text_input('Name on smoothie :')
-st.write('Name on smmothie will be :',name_on_order)
+name_on_order =st.text_input('Name on Smoothie:')
+st.write('The name on your smoothie will be', name_on_order)
 
 # Get the current credentials
 cnx=st.connection("snowflake")
