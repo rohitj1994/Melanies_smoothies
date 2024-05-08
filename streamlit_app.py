@@ -10,10 +10,6 @@ st.write(
     """)
 
 
-
-
-#import streamlit as st
-
 #title = st.text_input('Movie title', 'Life of Brian')
 #st.write('The current movie title is', title)
 
@@ -35,7 +31,6 @@ if ingredients_list:
 
     for fruit_choosen in ingredients_list:
         ingredients_string += fruit_choosen + ' '
-
 
 
     my_insert_stmt = """ insert into smoothies.public.orders(ingredients,name_on_order)
